@@ -22,7 +22,7 @@ We perform **Land Cover Scene Classification** for a case study over **Romania**
 ### Repository Contents
 
 * `lucas_image_chips.ipynb`: Notebook used to query GEE, filter LUCAS points for Romania, and download the raw image chip dataset.
-* `finetuning_terramind.ipynb`: The adapted notebook containing the PyTorch Lightning/TerraTorch pipeline for fine-tuning TerraMind on the generated dataset.
-* `finetuning_prithvi.ipynb`: The notebook detailing the fine-tuning of the Prithvi model.
+* `Terramind_Romania_Classificiation.ipynb`: The adapted notebook containing the PyTorch Lightning/TerraTorch pipeline for fine-tuning TerraMind on the generated dataset.
+* `Prithvi_Romania.ipynb`: The notebook detailing the fine-tuning of the Prithvi model.
 * `data/`: Directory (linked to Google Drive) containing the custom `lucas_image_chips.ipynb`, the dataset will be on google drive.
 * `report.pdf`: Final PDF report summarizing the methodology, experiments, and comparative results.
